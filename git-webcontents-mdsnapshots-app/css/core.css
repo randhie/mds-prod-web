@@ -1,0 +1,160 @@
+@CHARSET "ISO-8859-1";
+/* body 						{padding-bottom: 160px;} */
+body 							{padding-bottom: 0px; margin-bottom: 0px; background-color: #f8f8f8;}
+.form-padding 					{padding: 15px;}
+.form-textbox-padding 			{padding: 5px;}
+.form-left-padding				{padding-left: 100px;}
+.footer-padding					{padding: 8px;}
+.less-opacity					{opacity: 0.9; filter: alpha(opacity=90);}
+.banner-size					{width: 100%; height: 100%; border: 0px;}
+.no-spaces,
+#albumContents div				{padding: 0px; margin: 0px; border: 0px; left: 0;}
+.top-margin-small				{margin-top: 3px;}
+.top-margin						{margin-top: 50px;}
+.top-margin-util				{margin-top: 100px;}
+.buttom-margin					{margin-bottom: 50px;}
+.buttom-margin-medium			{margin-bottom: 15px;}
+.buttom-margin-small			{margin-bottom: 5px;}
+.album-margin					{margin-top: 50px; margin-bottom: 50px;}
+.top-padding					{padding-top: 50px;}
+.right-padding					{padding-right: 50px;}
+#latestUpload.background 		{background-color: gray;}
+#latestUpload.textcolour 		{color: white;}	
+#latestUpload .img-top-margin 	{margin-top: 20px;}
+#latestUpload img:HOVER 		{cursor: pointer;}
+.italic							{font-style: italic;}
+.justified						{text-align: justify;}
+.right-padding-small			{padding-right: 20px;}
+
+#bg 							{position: fixed; top: 0%; left: 0%; width: 100%; height: 100%;}
+#bg img 						{position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin: auto; min-width: 50%; min-height: 50%;}
+.black-background-opaque		{background: rgba(0,0,0,0.3); padding: 40px 20px 20px 20px;}
+.hide							{display: none;}
+.footer							{bottom: 0px; position: fixed; width: 100%;}
+.font-white						{color: white;}
+.no-resize						{resize: none;}
+.pointer						{cursor: pointer;}
+
+.portrait-image					{width: 100%;}
+.lobster-font					{font-family: 'Lobster Two', cursive;}
+.btn-width						{width: 50%;}
+.right-align					{text-align: right;}
+.indent-medium					{text-indent: 0px;}
+.left-alignment					{text-align: left;}
+.buttom-padding-medium			{padding-bottom: 5px;}
+#rightCalendar p				{font-style: italic;}
+/* unused  */
+/*
+.div-banner				{margin-top: 45px; padding-bottom: 17%;}
+.banner					{background-image: url('/images/R5D_2330.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover; border: 0px;}
+*/
+
+
+.html-bg						{background: url(/images/R5D_2261copy.jpg) no-repeat center center fixed; 
+								  -webkit-background-size: cover;
+								  -moz-background-size: cover;
+								  -o-background-size: cover;
+								  background-size: cover;
+								}
+						 
+ hr 							{border: 0; height: 2px; 
+ 								 background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+ 								 background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+ 								 background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+ 								 background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));}
+ 								 
+ .testi-display					{
+ 								-webkit-border-radius: 20px;
+								-moz-border-radius: 20px;
+								border-radius: 20px;
+								border: 1px solid;
+								padding: 40px 20px 0px 20px;
+								margin-bottom: 30px;
+ 								}
+ 								
+.photo-margin					{margin: 2px;}
+.breadcrumbs-space				{margin-right: 10px;}
+.center-align					{text-align: center;}
+.progress						{height: 30px;}
+.left-align						{text-align: left; display: inline;}
+
+.hero-banner-text-left			{text-align: left;}
+.hero-banner-text-top-padding	{padding-top: 100px;}
+.hero-banner-text-right			{text-align: right;}
+.bar {
+    height: 18px;
+    background: green;
+}
+
+
+
+.image-resize			{
+						  background: url('/images/hero-banner-madison.jpg') no-repeat scroll 0 0 / 100% 100% ;
+						  -webkit-background-size: cover;
+						  -moz-background-size: cover;
+						  -o-background-size: cover;
+						  background-size: cover;
+						}
+
+.image-resize-about	{
+						  background: url('/images/hero-banner-stefanie.jpg') no-repeat scroll 0 0 / 100% 100% ;
+						  -webkit-background-size: cover;
+						  -moz-background-size: cover;
+						  -o-background-size: cover;
+						  background-size: cover;
+						}
+
+.image-resize-contract	{
+						  background: url('/images/hero-banner-angel3.jpg') no-repeat scroll 0 0 / 100% 100% ;
+						  -webkit-background-size: cover;
+						  -moz-background-size: cover;
+						  -o-background-size: cover;
+						  background-size: cover;
+						}
+						
+						
+.image-resize-booking	{
+						  background: url('/images/hero-banner-kelsey.jpg') no-repeat scroll 0 0 / 100% 100% ;
+						  -webkit-background-size: cover;
+						  -moz-background-size: cover;
+						  -o-background-size: cover;
+						  background-size: cover;
+						}
+						
+.image-resize-testimonial	{
+						  	background: url('/images/hero-banner-angel.jpg') no-repeat scroll 0 0 / 100% 100% ;
+						  	-webkit-background-size: cover;
+						  	-moz-background-size: cover;
+						  	-o-background-size: cover;
+						  	background-size: cover;
+							}						
+						
+/* .image-resize			/* {background: url('/images/hero-banner-angel3.jpg') no-repeat scroll 0 0 / 100% 100% transparent !important ; */
+						/* -webkit-background-size: cover;
+						-moz-background-size: cover;
+						-o-background-size: cover;
+						background-size: cover;
+						opacity: 0.9; filter: alpha(opacity=40);
+						} */ 						
+						
+@media screen and (max-width: 768px) {
+    .lead {
+        font-size:20px;
+    }
+}
+ 
+@media screen and (max-width: 568px) {
+    .lead {
+        font-size:0.8em;
+    }
+}
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}

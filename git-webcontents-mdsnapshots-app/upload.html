@@ -1,0 +1,53 @@
+<div class="container top-margin">
+	<div class="row top-margin table-bordered form-padding">
+		<div class="container col-md-12 center-align"><h3 class="lobster-font">Upload Photo</h3></div>
+		
+		<div class="container top-margin col-md-12" align="center">
+			<form name="uploadPhotoForm" id="uploadPhotoForm" action="/mdstudioweb/processUploadFile.jctl" method="post" enctype="multipart/form-data">
+				<table id="directoryTbl" style="text-align: right;">
+					<tr>
+						<th style="padding-right: 10px;">Category:
+							<br/><br/>
+						</th>
+						<td style="width: 310px;">
+							<select id="category" style="width: 300px;"></select>
+							<br/><br/>
+						</td>
+					</tr>
+					<tr>
+						<th style="padding-right: 10px;">Directory
+							<br/><br/>
+						</th>
+						<td>
+							<select id="directory" style="width: 300px;" name="directory"></select>
+							<br/><br/>
+						</td>
+					</tr>
+					<tr>
+						<th width="100px;" style="vertical-align: 0px;">Upload Files</th>
+						<td>
+							<div align="left" style="padding-left: 10px;">
+								<input type="file" id="fileUploaded" name="fileUploaded" multiple/>
+								<div id="progressBar" class="progress left-align" style="height: 100px;" align="left">
+									<div class="bar" id="progressbar" style="width: 0%;">
+										<div style="float: left; padding-left: 30%; font-size: small;" id="captionDiv"></div>
+									</div>
+									<div class="percent" align="left">0%</div>
+								</div>
+								<div id="status" style="height: 100px;"></div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<th>&nbsp;</th>
+						<td>
+							<div align="right">
+								<button type="submit" id="submitBtn" class="btn btn-primary" >Submit</button>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</form> 
+		</div>
+	</div> 
+</div>

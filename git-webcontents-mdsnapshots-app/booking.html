@@ -1,0 +1,84 @@
+<div id="bookingContent">
+	<nav class="navbar container top-padding" id="booking" align="center" >
+		<div class="col-md-3"></div>
+		<div class="col-md-7">
+			<h4 class="text-center form-padding">
+			Welcome to my website and thanks for considering me 
+			for the most special photos you'll have taken. I'd love 
+			to meet with you, have a cup of coffee (or tea) and hear 
+			all about your proposal and photo session plans. 
+			</h4>
+		</div>
+		<div class="col-md-2"></div>
+	</nav>
+
+	<nav class="navbar container" id="booking2" role="navigation">
+		<div class="container col-md-2 form-booking"></div>
+		<div class="container col-md-3 form-booking " role="navigation" >
+			<h5 class="text-left ">
+			<strong>
+			BOOK YOUR SESSION
+			<br/>
+			OR ASK US A QUESTION
+			</strong>
+			</h5>
+			
+			<p class="text-left ">
+			info@mdsnapshots.com<br/>
+			604.773.88.24<br/>
+			Randy Ordinario - Photographer 
+			</p>
+		</div>
+		<div class="container col-md-5 pull-left form-booking" role="navigation" >
+			<form role="form" id="bookingForm" onsubmit="return false;">
+				<div class="form-group" align="left">
+					<input type="email" class="form-control" id="emailAddress" name="emailAddress" placeholder="Enter your email"/>
+				</div>
+				<div class="form-group" align="left">
+					<input type="text" class="form-control" id="fullName" name="fullName" placeholder="Your full name"/>
+				</div>
+				<div class="form-group" align="left">
+					<input type="text" class="form-control" id="contactNumber" name="contactNumber" placeholder="Contact number"/>
+				</div>
+				<div class="form-group" align="left">
+					<input type="text" class="form-control" id="desiredDate" name="desiredDate" placeholder="Desired Date"/>
+				</div>
+				<div class="form-group" align="left">
+					<input type="text" class="form-control" id="eventLocation" name="eventLocation" placeholder="Event location"/>
+				</div>
+				<div class="form-group" align="left">
+					<select id="eventBudget" name="eventBudget" class="form-control">
+					 	<option selected="selected" disabled="disabled" value="N/A">Select Event Budget</option>
+						<option value="Below $1000">Below $1000</option>
+						<option value="$1000 - $1499">$1000 - $1499</option>
+						<option value="$1500 - $1999">$1500 - $1999</option>
+						<option value="$2000 - $2499">$2000 - $2499</option>
+						<option value="$2500 - $2999">$2500 - $2999</option>
+						<option value="$3000 - $3499">$3000 - $3499</option>
+						<option value="$3500 - $3999">$3500 - $3999</option>
+						<option value="$4000 Above">$4000 Above</option>
+						<option value="Sponsorship">Sponsorship</option>
+						<option value="Charity">Charity</option>
+						<option value="Shoot for Cause">Shoot for Cause</option>
+						<option value="Other">Other</option>
+					</select>
+				</div>
+				<div class="form-group" align="left">
+					<input type="text" class="form-control" id="notes" name="notes" placeholder="How did you hear about us?"/>
+				</div>
+				<div class="form-group" align="left">
+					<textarea id="message" name="message" class="form-control no-resize" rows="10" cols="40" placeholder="Message"></textarea>
+				</div>
+				<button type="submit" class="btn btn-primary pull-right" id="submitBtn">Submit</button>
+			</form>
+		</div>
+	</nav>
+</div>
+
+<div id="successMsg"  >
+	<p>
+		Thank you for your request. We'll contact you 
+		as soon as possible.
+	</p>
+	<button type="button" id="requestAgainBtn" class="btn btn-primary">Make another request</button>
+</div>	

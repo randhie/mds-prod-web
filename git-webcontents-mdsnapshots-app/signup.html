@@ -1,0 +1,64 @@
+<div id="signupContent" class="container top-margin table-bordered form-padding">
+	<form id="signupForm" name="signupForm" class="form-horizontal" role="form" onsubmit="return false;" >
+		<div class="form-group">
+			<label for="emailAddress" class="col-sm-4 control-label">Email</label>
+			<div class="col-sm-5">
+				<label class="control-label hide" for="emailAddressError"></label>
+				<input type="email" class="form-control" name="emailAddress" id="emailAddress" placeholder="Email" />
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="firstName" class="col-sm-4 control-label">First name</label>
+			<div class="col-sm-5">
+				<label class="control-label hide" for="firstNameError"></label>
+				<input type="text" class="form-control" name="firstName" id="firstName" placeholder="First name"/>
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="lastName" class="col-sm-4 control-label">Last name</label>
+			<div class="col-sm-5">
+				<label class="control-label hide" for="lastNameError"></label>
+				<input type="text" class="form-control" name="lastName" id="lastName" placeholder="Last name"/>
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="passcode" class="col-sm-4 control-label">Password</label>
+			<div class="col-sm-5">
+				<label class="control-label hide" for="passcodeError"></label>
+				<input type="password" class="form-control" name="passcode" id="passcode" placeholder="Password"/>
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="confirmPassCode" class="col-sm-4 control-label">Confirm password</label>
+			<div class="col-sm-5">
+				<label class="control-label hide" for="confirmPassCodeError"></label>
+				<input type="password" class="form-control" name="confirmPassCode" id="confirmPassCode" placeholder="Confirm password"/>
+			</div>
+		</div>
+		
+		<div class="form-group">
+			<div class="col-sm-4"></div>
+			<div class="col-sm-5">
+				<button type="submit" id="submitSignupForm" class="btn btn-primary">Submit</button>
+			</div>
+		</div>
+	</form>
+	
+	<div id="successMsg" style="display: none;" align="center" >
+			<h4>
+				You're almost there. <br/>
+				Your activation code is sent to your email address
+				<br/> 
+				at <span class="bluetext text-primary"></span>
+			
+			</h4>
+	</div>
+</div>
+
+
+
+<div id="banner">
+	<div class="nav navbar-nav container-fluid no-spaces">
+		<img src="images/R5D_2330.jpg" class="img-responsiv banner-size">
+	</div>
+</div>

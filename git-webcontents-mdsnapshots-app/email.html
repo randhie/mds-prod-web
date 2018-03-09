@@ -1,0 +1,66 @@
+<div class="container top-margin-util form-padding table-bordered" align="center">
+	<form name="emailForm" id="emailForm" action="/mdstudioweb/processEmail.jctl" method="post" enctype="multipart/form-data">
+		<table >
+			<tr>
+				<td>From: </td>
+				<td>
+					<input type="text" name="fromEmail" placeholder="randyordinario@mdsnapshots.com" size="50"/>
+					<br/><br/>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>Name: </td>
+				<td>
+					<input type="text" name="fromName" placeholder="Randy Ordinario" size="50"/>
+					<br/><br/>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>To: </td>
+				<td>
+					<input type="text" name="toEmail" placeholder="support@mdsnapshots.com" size="50"/>
+					<br/><br/>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>Subject: </td>
+				<td>
+					<input type="text" name="subject" size="50"/>
+					<br/><br/>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>Attachments: </td>
+				<td>
+					<input type="file" name="attachments" multiple/>
+					<div class="progress">
+				        <div class="bar" style="width: 0%;"></div >
+				        <div class="percent " style="display: inline; position: absolute; margin-top: 20px;">0%</div >
+				    </div>
+				    
+				    <div id="status"></div>
+					<br/><br/>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>Message: </td>
+				<td>
+					<textarea name="messageBody"  cols="100" rows="20"></textarea>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>&nbsp;</td>
+				<td align="right">
+					<button type="submit" id="submitBtn" name="submitBtn" class="btn btn-primary">Send</button>
+					<br/><br/>
+				</td>
+			</tr>
+		</table>
+	</form>
+</div>
